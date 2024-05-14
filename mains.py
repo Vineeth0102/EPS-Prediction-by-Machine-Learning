@@ -10,9 +10,8 @@ import xgboost as xgb
 
 
 
-df = pd.read_excel ("C:\\Users\\rohu1\\Desktop\\depv1\\EPS_Dataset.xlsx",'v8')
+df = pd.read_excel ("C:\\Users\\vineeth\\Desktop\\EPS-Prediction-by-Machine-Learning\\EPS_Dataset.xlsx",'v8')
 df = df. drop( ['Bank name', 'Year'] , axis=1)
-
 
 # Data cleaning
 
